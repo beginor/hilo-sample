@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiloWithNH", "HiloWithNH\HiloWithNH.csproj", "{1EC6CFDC-2D6A-45E6-8AD6-D9454CEC1648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiloWithEF", "HiloWithEF\HiloWithEF.csproj", "{A9D1C480-3CDC-4216-856D-2BA53C2624FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiloCore", "HiloCore\HiloCore.csproj", "{48394286-0392-4423-9CDF-4729EC30B05E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EC6CFDC-2D6A-45E6-8AD6-D9454CEC1648}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1EC6CFDC-2D6A-45E6-8AD6-D9454CEC1648}.Debug|x86.Build.0 = Debug|Any CPU
+		{1EC6CFDC-2D6A-45E6-8AD6-D9454CEC1648}.Release|x86.ActiveCfg = Release|Any CPU
+		{1EC6CFDC-2D6A-45E6-8AD6-D9454CEC1648}.Release|x86.Build.0 = Release|Any CPU
+		{A9D1C480-3CDC-4216-856D-2BA53C2624FC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9D1C480-3CDC-4216-856D-2BA53C2624FC}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9D1C480-3CDC-4216-856D-2BA53C2624FC}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9D1C480-3CDC-4216-856D-2BA53C2624FC}.Release|x86.Build.0 = Release|Any CPU
+		{48394286-0392-4423-9CDF-4729EC30B05E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{48394286-0392-4423-9CDF-4729EC30B05E}.Debug|x86.Build.0 = Debug|Any CPU
+		{48394286-0392-4423-9CDF-4729EC30B05E}.Release|x86.ActiveCfg = Release|Any CPU
+		{48394286-0392-4423-9CDF-4729EC30B05E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

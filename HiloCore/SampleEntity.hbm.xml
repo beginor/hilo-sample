@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<hibernate-mapping
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="urn:nhibernate-mapping-2.2"
+    namespace="HiloCore"
+    assembly="HiloCore"
+    >
+    <class name="SampleEntity" table="entries" schema="public">
+        <id name="Id" column="id" type="int">
+            <generator class="seqhilo">
+                <param name="sequence">public.ef_core_hilo_sequence</param>
+                <param name="max_lo">100</param>
+            </generator>
+        </id>
+        <property name="SubId" column="sub_id" type="int" />
+        <property name="Title" column="title" type="string" />
+        <property name="Text" column="text" type="string" />
+    </class>
+</hibernate-mapping>

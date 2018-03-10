@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build HiloWithEF",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/HiloWithEF/HiloWithEF.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build HiloWithNH",
+      "command": "msbuild",
+      "type": "process",
+      "args": [
+        "${workspaceFolder}/HiloWithNH/HiloWithNH.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
