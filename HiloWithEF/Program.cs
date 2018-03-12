@@ -75,6 +75,10 @@ namespace HiloWithEF {
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
             // base.OnModelCreating(modelBuilder);
             modelBuilder.HasDefaultSchema("public");
+            modelBuilder.HasSequence(
+                "ef_core_hilo_sequence",
+                b => b.IncrementsBy(100)
+            );
             modelBuilder.Entity<SampleEntity>()
                 .ToTable("entries");
             modelBuilder.Entity<SampleEntity>()
